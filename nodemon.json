@@ -1,0 +1,13 @@
+{
+  "restartable": "rs",
+  "quiet": true,
+  "watch": ["src/"],
+  "ext": "ts",
+  "execMap": {
+    "ts": "node --require ts-node/register"
+  },
+  "ignore": ["src/**/*.test.ts"],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
